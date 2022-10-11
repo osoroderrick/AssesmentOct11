@@ -8,11 +8,11 @@ public class IceCream extends Product implements Consumable,LickAble{
 
     @Override
     public void consume() {
-
+        System.out.println("Now consuming " + this.getName());
     }
 
     @Override
     public boolean safeToLick() {
-        return false;
+        return true;
     }
 }

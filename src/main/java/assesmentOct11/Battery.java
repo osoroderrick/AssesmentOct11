@@ -7,6 +7,6 @@ public class Battery extends Product implements Consumable{
 
     @Override
     public void consume() {
-
+        System.out.println("Now consuming " + this.getName());
     }
 }

@@ -8,6 +8,11 @@ public class Admin extends User {
 
     @Override
     public void print() {
+        System.out.println(this.getUsername());
+    }
 
+    @Override
+    public String toString() {
+        return "Admin's name is : " + getUsername();
     }
 }
